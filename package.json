@@ -1,0 +1,35 @@
+{
+  "name": "@superflycss/component-site",
+  "version": "1.0.0",
+  "description": "Site component",
+  "main": "src/main/css/index.css",
+  "scripts": {
+    "update": "ncu -a && npm i",
+    "clean": "gulp clean",
+    "build": "npm run clean && gulp build:css",
+    "test": "npm run build && gulp test:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/superflycss/component-site.git"
+  },
+  "keywords": [
+    "css",
+    "superflycss",
+    "site",
+    "component"
+  ],
+  "author": "Ole Ersoy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/superflycss/component-site/issues"
+  },
+  "homepage": "https://github.com/superflycss/component-site#readme",
+  "devDependencies": {
+    "@superflycss/task-build": "^1.0.2",
+    "@superflycss/task-clean": "^1.0.0",
+    "@superflycss/task-deploy": "^1.0.1",
+    "gulp": "^3.9.1",
+    "npm-check-updates": "^2.11.3"
+  }
+}

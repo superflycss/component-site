@@ -1,0 +1,6 @@
+/** Illustrate how to change the site margin property from 0px to 2 rem */
+@import "../../main/css/index.css";
+
+:root {
+  --Site-margin: 2rem;
+}
