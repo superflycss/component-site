@@ -28,7 +28,7 @@
   "devDependencies": {
     "@superflycss/task-build": "^1.0.2",
     "@superflycss/task-clean": "^1.0.0",
-    "@superflycss/task-deploy": "^1.0.1",
+    "@superflycss/task-deploy": "^2.1.2",
     "gulp": "^3.9.1",
     "npm-check-updates": "^2.11.3"
   }
