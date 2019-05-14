@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" class="Site--center u-mt1rem">
+
+  {% import "SiteHead.njk" as SiteHead %}
+
+  {% call SiteHead.head('SuperflyCSS Component Site') %}
+  <!-- Adding Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  {% endcall %}
+  <body class="u-mxw60rem">
+    <header class="u-flex u-flex-align-items-center u-background-color-white">
+      <a href="../" style="width: 100px; height: 100px;">
+      {% include "@superflycss/superflycss/logo-optimized.svg" %}
+      </a>
+      <h1 class="u-letter-spacing-10px u-ml3rem Display--fs100 u-text-uppercase">Site Component</h1>
+    </header>
+    <main class="u-text-color-black
+                 u-background-color-md-blue-50 
+                 u-padding-2rem
+                 u-text-color-md-grey-800 
+                 u-letter-spacing-3px 
+                 u-line-height-30px">
+    <p>The <code>Site</code> component is applied to the <code>html</code> element.  
+    Using it we can set the parameters (Defaults included):</p>
+    <pre>
+  --Site-min-width: 270px;
+  --Site-min-height: 100%;
+  --Site-max-width: 100%;
+  --Site-max-height: 100%;
+  --Site-background-color: #FFFFFF;
+  --Site-margin: 0px;
+    </pre>
+    <p>Fugiat commodo in excepteur sit aute quis adipisicing irure ex elit in cillum qui. Veniam et tempor incididunt deserunt pariatur ullamco. Eu voluptate non dolore laboris aliquip. Ea sunt pariatur nulla culpa. Aute laborum et culpa id dolore in nulla velit anim.</p>
+    <p>Fugiat commodo in excepteur sit aute quis adipisicing irure ex elit in cillum qui. Veniam et tempor incididunt deserunt pariatur ullamco. Eu voluptate non dolore laboris aliquip. Ea sunt pariatur nulla culpa. Aute laborum et culpa id dolore in nulla velit anim.</p>
+    </main>
+  </body>
+</html>

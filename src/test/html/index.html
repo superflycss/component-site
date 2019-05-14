@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" class="Site u-ml2rem u-mt2rem">
+
+  {% import "SiteHead.njk" as SiteHead %}
+
+  {% call SiteHead.head('SuperflyCSS Component Site') %}
+  <!-- Adding Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  {% endcall %}
+  <body class="u-max-width56rem">
+    <header class="Navbox--center-lg u-background-color-white">
+      <div class="u-width28rem u-height28rem">
+      {% include "@superflycss/superflycss/logo-optimized.svg" %}
+      </div>
+      <h1 class="u-letter-spacing-8px 
+                 u-ml3rem Display--fs100 
+                 u-text-uppercase
+                 u-text-align-center">Site Component</h1>
+    </header>
+    <main class="u-text-color-black
+                 u-padding-top-2rem 
+                 u-text-color-md-grey-800 
+                 u-letter-spacing-3px 
+                 u-line-height-30px">
+    <nav class="Navbox--center-lg 
+                u-background-color-white 
+                u-flex-align-items-stretch">
+       <a class="Button
+                 u-flex-grow1
+                 u-height7rem
+                 u-background-color-333
+                 u-letter-spacing-1x
+                 u-on-hover-background-color-md-pink-500
+                 u-text-color-white
+                 u-font-open-sans
+                 u-border-color-222
+                 u-font-weight-300
+                 u-font-size-500" href="Site" >Site</a>
+       <a class="Button
+                 u-flex-grow1
+                 u-height7rem
+                 u-background-color-333
+                 u-letter-spacing-1x
+                 u-on-hover-background-color-md-pink-500
+                 u-text-color-white
+                 u-font-open-sans
+                 u-border-color-222
+                 u-font-weight-300
+                 u-font-size-500" href="Site--centered" >Site--centered</a>
+    </nav>
+    </main>
+  </body>
+</html>
