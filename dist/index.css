@@ -1,0 +1,26 @@
+:root {
+  --Site-min-width: 270px;
+  --Site-min-height: 100%;
+  --Site-max-width: 100%;
+  --Site-max-height: 100%;
+  --Site-background-color: #FFFFFF;
+  --Site-margin: 0px;
+  --Site {
+    background-color: var(--Site-background-color);
+    min-height: var(--Site-min-height);
+    min-width: var(--Site-min-width);
+    max-height: var(--Site-max-height);
+    max-width: var(--Site-max-width);
+    margin: var(--Site-margin);
+  }
+}
+
+.Site {
+  @apply(--Site);
+}
+
+.Site--center {
+  @apply(--Site);
+  display: flex;
+  justify-content: center;
+}
