@@ -1,6 +1,6 @@
 {
   "name": "@superflycss/component-site",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Site component",
   "main": "src/main/css/index.css",
   "scripts": {

@@ -11,5 +11,6 @@ deploy:
 before_deploy:
   - npm i -g @superflycss/cli
   - sfc deploy
+  - sed -i '1 i README.md' .gitignore
   - sed -i '/target/d' .gitignore
   - sed -i '/deploy/d' .gitignore
