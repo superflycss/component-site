@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" class="Site--center u-m3rem">
+
+  {% import "SiteHead.njk" as SiteHead %}
+
+  {% call SiteHead.head('SuperflyCSS Component Site') %}
+  <!-- Adding Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  {% endcall %}
+  <body class="u-max-width62rem">
+    <header class="Navbox--center-lg u-background-color-white">
+      <a href="https://github.com/superflycss/superflycss" 
+         class="u-flex-shrink0 u-width24rem u-height24rem sc-Logo--background">
+      {% include "@superflycss/superflycss/logo-optimized.svg" %}
+      </a>
+      <a href="https://github.com/superflycss/component-site" 
+         class="Link
+                u-letter-spacing-8px 
+                u-mt3rem
+                Display--fs100sm 
+                Display--fs0 
+                u-text-uppercase
+                u-text-align-center">Site Component</a>
+    </header>
+    <main class="u-pt2rem 
+                 u-text-color-md-grey-800 
+                 u-letter-spacing-3px 
+                 u-line-height-30px">
+    <nav class="Navbox--center-lg 
+                u-background-color-white 
+                u-flex-align-items-stretch
+                u-font-weight-300
+                u-font-size-500
+                u-font-open-sans
+                u-text-color-white
+                u-border-color-222
+                u-background-color-333
+                u-letter-spacing-1x">
+       <a class="Button
+                 u-flex-shrink0
+                 u-flex-grow1
+                 u-height6rem
+                 u-min-height6rem
+                 u-on-hover-background-color-md-pink-500
+                 u-on-active-background-color-md-pink-700" 
+          href="Site">Site</a>
+       <a class="Button
+                 u-flex-shrink0
+                 u-flex-grow1
+                 u-height6rem
+                 u-min-height6rem
+                 u-background-color-333
+                 u-letter-spacing-1x
+                 u-on-hover-background-color-md-pink-500
+                 u-on-active-background-color-md-pink-700" 
+           href="Site--centered" >Site--centered</a>
+    </nav>
+    </main>
+  </body>
+</html>

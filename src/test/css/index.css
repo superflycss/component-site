@@ -1,0 +1,57 @@
+@import "@superflycss/foundation";
+@import "../../main/css/";
+@import "@superflycss/component-test";
+@import "@superflycss/component-link";
+@import "@superflycss/component-navbox";
+@import "@superflycss/component-display";
+@import "@superflycss/component-button";
+@import "@superflycss/component-header";
+@import "@superflycss/utilities-layout";
+@import "@superflycss/variables-layout";
+@import "@superflycss/utilities-format";
+@import "@superflycss/utilities-fonts";
+@import "@superflycss/utilities-colors/";
+@import "@superflycss/utilities-colors/browser/";
+
+:root {
+  /** Header */
+  --Palette--Link_onHover-text-color: #e91eaa;
+  --Palette--Link_onVisited-text-color: #13e0ff;
+
+  /** Test */
+  --Palette--Test-background-color: #CDDC38;
+}
+
+
+.sc-Logo:hover {
+  fill: #e91eaa;
+}
+
+.sc-Logo:active {
+  fill: red;
+}
+
+.sc-Logo--background {
+  background-color:#FF5722; 
+}
+
+.sc-Logo--background:hover {
+  background-color: gray;
+}
+
+body {
+  counter-reset: test-counter;
+}
+
+
+::selection {
+    color: red;
+    background: yellow;
+}
+
+:root {
+  --Link_onHover-text-decoration: none;
+  --Link_onHover-text-color: var(--Palette--Link_onHover-text-color);
+  --Link_onVisited-text-decoration: none;
+  --Link_onVisited-text-color: var(--Palette--Link_onVisited-text-color);
+}
