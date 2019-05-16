@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="Site u-ml2rem u-mt2rem">
+<html lang="en" class="Site--center u-m3rem">
 
   {% import "SiteHead.njk" as SiteHead %}
 
@@ -7,15 +7,19 @@
   <!-- Adding Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   {% endcall %}
-  <body class="u-max-width56rem">
+  <body class="u-max-width62rem">
     <header class="Navbox--center-lg u-background-color-white">
-      <div class="u-width28rem u-height28rem">
+      <a href="https://github.com/superflycss/superflycss" 
+         class="u-flex-shrink0 u-width28rem u-height28rem sc-Logo--background">
       {% include "@superflycss/superflycss/logo-optimized.svg" %}
-      </div>
-      <h1 class="u-letter-spacing-8px 
-                 u-ml3rem Display--fs100 
-                 u-text-uppercase
-                 u-text-align-center">Site Component</h1>
+      </a>
+      <a href="https://github.com/superflycss/component-site" 
+         class="Link
+                u-letter-spacing-8px 
+                u-mt3rem 
+                Display--fs100 
+                u-text-uppercase
+                u-text-align-center">Site Component</a>
     </header>
     <main class="u-text-color-black
                  u-padding-top-2rem 
@@ -26,22 +30,28 @@
                 u-background-color-white 
                 u-flex-align-items-stretch">
        <a class="Button
+                 u-flex-shrink0
                  u-flex-grow1
                  u-height7rem
+                 u-min-height7rem
                  u-background-color-333
                  u-letter-spacing-1x
                  u-on-hover-background-color-md-pink-500
+                 u-on-active-background-color-md-pink-700
                  u-text-color-white
                  u-font-open-sans
                  u-border-color-222
                  u-font-weight-300
                  u-font-size-500" href="Site" >Site</a>
        <a class="Button
+                 u-flex-shrink0
                  u-flex-grow1
+                 u-min-height7rem
                  u-height7rem
                  u-background-color-333
                  u-letter-spacing-1x
                  u-on-hover-background-color-md-pink-500
+                 u-on-active-background-color-md-pink-700
                  u-text-color-white
                  u-font-open-sans
                  u-border-color-222
