@@ -52,5 +52,6 @@ body {
 :root {
   --Link_onHover-text-decoration: none;
   --Link_onHover-text-color: var(--Palette--Link_onHover-text-color);
+  --Link_onVisited-text-decoration: none;
   --Link_onVisited-text-color: var(--Palette--Link_onVisited-text-color);
 }
