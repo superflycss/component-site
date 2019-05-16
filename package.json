@@ -1,6 +1,6 @@
 {
   "name": "@superflycss/component-site",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Site component",
   "main": "src/main/css/index.css",
   "scripts": {
@@ -25,7 +25,7 @@
   "devDependencies": {
     "@superflycss/component-body": "^1.0.4",
     "@superflycss/component-button": "^2.0.10",
-    "@superflycss/component-display": "^1.0.5",
+    "@superflycss/component-display": "^1.0.9",
     "@superflycss/component-header": "^2.1.0",
     "@superflycss/component-link": "^1.0.9",
     "@superflycss/component-navbox": "^1.0.9",
